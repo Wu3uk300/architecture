@@ -1,0 +1,64 @@
+.container{
+    margin-top: 50px;
+    background-color: #141414;
+    width: 100%;
+    height: 650px;
+    padding: 150px 300px 0px 90px;
+    color: white;
+   
+}
+
+.numbersSquare{
+    display: flex;
+    flex-direction: column;
+}
+.numbersSqaure p{
+    margin-bottom: -40px;
+}
+.firstRow{
+    display: flex;
+}
+.secondRow{
+    display: flex;
+}
+.textPart p {
+    font-size: 46px;
+    font-weight: bolder;
+    line-height: 60px;
+}
+.numbersSquare h3{
+    font-size: 69px;
+   font-weight: bolder;
+}
+.numbersSquare{
+    margin-bottom: 80px;
+    margin-right: 140px;
+    white-space: nowrap;
+    text-align: center;
+    
+}
+
+.textPart{
+    flex-basis: 50%;
+    margin-right: 350px;
+    white-space: nowrap;
+}
+.numbersSquare p{
+    font-size: 19px;
+    
+}
+.fixCss{
+    margin-left: 18px;
+}
+.firstNumber{
+    transition: 1s all;
+}
+.infoPart{
+    justify-content: space-between;
+    display: flex;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

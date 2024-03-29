@@ -1,0 +1,111 @@
+.container{
+    height: 500px;
+    color: white;
+    display: flex;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+.letfPart{
+     flex-basis: 50%;
+     color: white;
+     font-weight: 600;
+     font-size: 46px;
+     line-height: 1;
+}
+.rightPart{
+    padding-left: 60px;
+}
+.firstRow{
+    display: flex;
+    margin-top: 60px;
+}
+.nameInput{
+    margin-right: 30px;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #474747;
+    background-color: black;
+    color: white;
+    width: 260px;
+    padding: 0px 10px 8px 10px;
+    font-size: 15px;
+    
+}
+.nameInput:focus{
+    outline: none;
+}
+.mailInput{
+    margin-right: 30px;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #474747;
+    background-color: black;
+    color: white;
+    width: 260px;
+    padding: 0px 10px 8px 10px;
+    font-size: 15px;
+}
+.mailInput:focus{
+    outline: none;
+}
+.messageRow textarea{
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #474747;
+    margin-top: 20px;
+    padding: 0px 10px 8px 10px;
+    resize: none;
+ 
+}
+.messageRow textarea:focus{
+    outline: none;
+}
+.SendButton button{
+    margin-top: 30px;
+    padding: 25px 60px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #474747;
+    transition: 0.3s all;
+}
+.SendButton button:hover{
+    background-color:  #6a6a6a;
+}
+.sentMessage{
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.galka{
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.loader{
+    pointer-events: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    animation:  an1 1s ease infinite;
+}
+@keyframes an1{
+    0%{
+        transform: rotate(0turn);
+    }   
+    100%{
+        transform: rotate(1turn);
+    }
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}

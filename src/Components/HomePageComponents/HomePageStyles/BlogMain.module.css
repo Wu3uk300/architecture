@@ -1,0 +1,92 @@
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.container{
+    color: white;
+    margin-bottom: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: hidden;
+    
+}
+.blogSlider{
+width: 1300px;
+overflow: hidden;
+}
+.blogRow{
+width: 2700px;
+display: flex;
+flex-wrap: wrap;
+transition: 0.15s all;
+
+}
+.blogRow:hover{
+    cursor: grab;
+}
+.blogSlider{
+    overflow: hidden;
+}
+
+.blogSquare{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
+    
+    
+}
+
+.blogText{
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 50px;
+
+}
+
+.blogDate{
+    padding: 15px 25px;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    margin-bottom: -55px;
+    z-index: 9999;
+   
+}
+
+.image{
+ width: 410px;
+  height: 300px;
+  background-size: 410px 300px;
+  transition: 0.3s all;
+  display: block;
+}
+.image:hover{
+    transform: scale(1.05); 
+    
+}
+.imageFlow{
+    overflow: hidden;
+}
+.blockSubText{
+    text-overflow: ellipsis;
+    max-width: 410px;
+}
+.blockSubText p{
+    font-size: 14px;
+    margin: 0; /* Убираем внешний отступ */
+    -webkit-line-clamp: 2; /* Число отображаемых строк */
+    display: -webkit-box; /* Включаем флексбоксы */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+}
+.blockHeader{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.blockHeader:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+.content{ 
+    width: 1250px;
+    height: 600px;
+    display: flex;
+}
+.textPart{
+    flex-basis: 50%;
+    width: 100%;
+    background-color: #141414;
+    color: white;
+    padding: 150px 50px 50px 90px
+}
+.smallText{
+    font-size: 20px;
+    margin-bottom: 50px;
+    
+}
+.bigText{
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    line-height: 1;
+}
+.btn{
+    padding: 20px 40px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #333333;
+    text-align: center;
+    transition: 0.3s all;
+}
+.btn:hover{
+    background-color: #4c4c4c;
+}
+.image{
+    flex-basis: 50%;
+    width: 100%;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}

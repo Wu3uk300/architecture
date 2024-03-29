@@ -1,0 +1,181 @@
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration:none;
+}
+a:hover,
+a:active,
+a:visited {
+   color:white
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color: black;
+}button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* отображаем курсор в виде руки при наведении; некоторые
+  считают, что необходимо оставлять стрелочный вид для кнопок */
+  cursor: pointer;
+}
+.alert-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1500ms, transform 1500ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 1500ms, transform 1500ms;
+}
+.slide-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+/* Entering animation for textArea */
+.slide-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1500ms, transform 1500ms;
+}
+
+/* Exiting animation for textArea */
+.slide-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Final state for textArea */
+.slide-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 1500ms, transform 1500ms;
+}
+
+
+
+.video-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.video-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1000ms, transform 1000ms;
+}
+.video-exit {
+  opacity: 1;
+}
+.video-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 1000ms, transform 1000ms;
+}
+
+
+
+.slideRight-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+/* Entering animation for textArea */
+.slideRight-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 500ms, transform 500ms;
+}
+
+/* Exiting animation for textArea */
+.slideRight-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Final state for textArea */
+.slideRight-exit-active {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 500ms, transform 500ms;
+}

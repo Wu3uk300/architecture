@@ -1,0 +1,56 @@
+
+.container{
+    width: 430px;
+    height: 525px;
+    text-overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+}
+.container a{
+    color: white;
+}
+.container a:visited{
+    color: white;
+}
+.itemPicture{
+    width: 450px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s all;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.itemPicture:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+.itemTitle{
+    font-weight: 600;
+    font-size: 28px;
+    width: fit-content;
+  
+}
+.itemTitle:hover{
+    cursor: pointer;
+}
+.dateNAuthor{
+margin-top: 10px;
+margin-bottom: 15px;
+}
+.description{
+    text-overflow: ellipsis;
+}
+.description p{
+    font-size: 14px;
+    margin: 0; /* Убираем внешний отступ */
+    -webkit-line-clamp: 2; /* Число отображаемых строк */
+    display: -webkit-box; /* Включаем флексбоксы */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+}
+.readMore{
+    margin-top: 15px;
+}

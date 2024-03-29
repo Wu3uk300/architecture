@@ -1,0 +1,98 @@
+.container{
+    background-color:  #131313;
+    width: 100%;
+    height: 470px;
+    color: white;
+    padding: 80px 80px 100px 80px;
+
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.linksSectionHeader{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+   
+}
+.address{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.number{
+    font-size: 18px;
+}
+.linksSection{
+    width: 100%;
+    flex-basis: 20%;
+}
+.linksSectionSpecial{
+    width: 100%;
+    flex-basis: 20%;
+    padding-left: 60px;
+}
+.linksSectionSpecial2{
+    width: 100%;
+    flex-basis: 20%;
+    padding-left: 20px;
+}
+.footerLink{
+    display: block;
+    width: fit-content;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.slogan{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.inputLine input{
+    background-color: #131313;
+    color: white;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+    padding:0px 10px 0px 5px;
+}
+.inputLine input:focus{
+    outline: none;
+    border: none;
+}
+.inputLine{
+    border-bottom: 1px solid white;
+    display: flex;
+    
+}
+.inputLine button{
+    font-size: 25px;
+    margin-top: -7px;
+}
+.loader{
+    pointer-events: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #fff;
+    animation:  an1 1s ease infinite;
+}
+@keyframes an1{
+    0%{
+        transform: rotate(0turn);
+    }   
+    100%{
+        transform: rotate(1turn);
+    }
+}.copyright{
+    margin-top: 80px;
+    text-align: center;
+}
+.container a{
+    color: white;
+}
+@media screen and (min-height: 1800px){
+    .container{
+      margin-top: 700px;
+    }
+}

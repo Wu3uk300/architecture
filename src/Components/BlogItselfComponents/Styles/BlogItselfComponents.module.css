@@ -1,0 +1,64 @@
+.container img{
+    height: 630px;
+    width: 100%;
+}
+.textPart{
+    width: 1260px;
+    height: fit-content;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: -50px;
+    background-color: black;
+}
+.textPart h3{
+    color: white;
+    font-size: 65px;
+}
+.contentPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.textPart button{
+    color: white;
+    font-size: 14px;
+    color: white;
+}
+.authorDate{
+    margin-top: 10px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.mainText{
+    color: white;
+    font-size: 15px;
+}
+.logicContent{
+    margin-bottom: 20px;
+}
+
+.whiteBox{
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lastBtn{
+    margin-top: 50px;
+    background-color: rgb(60, 60, 60);
+    width: fit-content;
+    padding: 15px 35px;
+    font-size: 20px;
+    transition: 0.3s all;
+}
+.lastBtn:hover{
+    background-color: rgb(77, 77, 77);
+}

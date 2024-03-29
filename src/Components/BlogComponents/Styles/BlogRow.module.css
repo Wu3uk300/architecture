@@ -1,0 +1,67 @@
+.container{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+
+}
+.wrapped{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+.navigationBar a{
+    color: white;
+    font-size: 15px;
+
+}
+.navigationBar{
+width: 500px;
+padding-right: 50px;
+margin-right: 20px;
+flex-basis: 30%;
+}
+.input{
+    width: 320px;
+    padding: 10px 30px 10px 10px;
+    font-size: 17px;
+    border: 1px solid  rgb(58, 58, 58); ;
+    background-color: black;
+    color: white;
+    margin-bottom: 55px;
+}
+.input:focus{
+    outline: none;
+}
+.cancel{
+    margin-left: -20px;
+}
+.navigationBar h3{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.blogBlocks{
+    width: 900px;
+    flex-basis: 70%;
+}
+.blogLink{
+    margin-top: 15px;
+}
+.blogRow{
+    display: flex;
+    width: 100%;
+}
+.blogRowLast{
+    display: flex;
+    margin-bottom: 100px;
+}
+.sorryText{
+    font-size: 25px;
+    text-align: center;
+}

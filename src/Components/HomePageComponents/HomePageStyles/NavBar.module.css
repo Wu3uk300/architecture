@@ -1,0 +1,103 @@
+
+.NavBar{
+height:110px;
+background-color: black;
+display: flex;
+align-items: center;
+padding-left: 20px;
+padding-right: 20px;
+position: fixed;
+  top: 0;
+width: 100%;
+justify-content: space-between;
+backface-visibility: hidden;
+z-index: 9999;
+will-change: transform;
+transition: 0.3s all;
+
+
+}
+.NavBarSmall{
+    height:70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+  top: 0;
+    width: 100%;
+    justify-content: space-between;
+    backface-visibility: hidden;
+    z-index: 9998;
+    will-change: transform;
+    transition: 0.3s all;
+    }
+.NavLogo{
+    font-size: 34px;
+    color: white;
+    
+}
+.NavBtns{
+  padding-left: 75px;
+  
+}
+.NavMenu{
+    display: flex;
+
+}
+.NavMenu>li{
+    width: fit-content;
+    list-style: none;
+    background: rgb(0, 0, 0);
+    position: relative;
+    margin-right: 40px;
+}
+.NavMenu a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    height: fit-content;
+    line-height: 40px;
+    transition: 0.5s all;
+}
+.NavMenu ul a:hover{
+    background: gray;
+}
+.NavMenu ul{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: 0;
+   
+}
+.NavMenu ul>li{
+    width: 200px;
+    list-style: none;
+    background: rgb(58, 58, 58);
+    position: relative;
+    margin-right: 40px;
+    border-bottom: 1px solid rgb(98, 98, 98);
+}
+.NavMenu li:hover ul{
+    display: block;
+}
+span{
+    font-size: 10px;
+}
+
+.NavMainBtn button{
+    border: none;
+    outline: none;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    padding: 23px 60px;
+    transition: 0.3s all;
+}
+.NavMainBtn button:hover{
+    background-color: rgb(98, 98, 98);
+    cursor: pointer;
+}

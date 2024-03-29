@@ -1,0 +1,34 @@
+.container{
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.portfoliowork{
+    width: 625px;
+    height: 415px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    transition: 0.3s all;
+}
+.portfoliowork:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.portfolioworkSmall:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.portfolioworkSmall{
+    width: 410px;
+    height: 275px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    transition: 0.3s all;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

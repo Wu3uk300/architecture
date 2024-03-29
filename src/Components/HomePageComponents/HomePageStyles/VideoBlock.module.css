@@ -1,0 +1,53 @@
+.container{
+    overflow: hidden;
+    margin-bottom: 170px;
+}
+.container img{
+    filter: brightness(70%);
+    transition: 0.5s all;
+}
+.playBtn{
+    z-index: 200;
+    color: black;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 25px;
+    margin-top: -350px;
+    transition: 0.3s all;
+
+}
+.playBtn:hover{
+    background-color: lightgray;
+}
+.divBtn{
+    display: flex;
+    justify-content: center;
+}
+.hidden{
+    display: none;
+}
+
+.videoWindow{
+    z-index: 300;
+    margin-top: -590px;
+}
+.closeBtn{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    margin-left: 1200px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
